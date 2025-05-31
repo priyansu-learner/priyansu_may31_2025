@@ -1,0 +1,40 @@
+TestCaseID,TestCase Name,Pre-requisite,TestSteps,TestData,Expected Result
+TC_01,Verify Homepage of the website,URL of website,Open The website,,"The website opens successfully.
+Verify the header displays correctly.
+Verify the logo is being displayed.
+Verify the Login & Register button is visible and clickable.
+Verify there is a text input field.
+Verify the submit button is visible and clickable."
+TC_02,Verify Result page of the website,"URL of website
+A String input","1.Open the website.
+2.Enter the string in the input field.
+3.Click on submit button.",,"The Result page should open successfully.
+Verify the header displays correctly.
+Verify the logo is being displayed.
+Verify the Login & Register button is visible and clickable.
+Verify the output is coming as per the problem logic.
+Verify the Back to Home button is visible and clickable."
+TC_03,Verify the Back to Home button,"URL of website
+A String input","1.Open the website.
+2.Enter the string in the input field.
+3.Click on submit button.
+4.Click on Back to Home button",,"On clicking on Back to Home button, The homepage of website should get dispalyed."
+TC_04,Verify Login functionality with valid credentials,"URL of website
+Valid credentials","1.Open the website.
+2.Click on login button.
+3.Enter valid credentials in login input fields.
+4.Click on Login button.",,"A login page should get successfully open after clicking on the login.
+The user should be able to login with valid credentials."
+TC_05,Verify Login functionality with invalid crdentials,"URL of website
+InValid credentials","1.Open the website.
+2.Click on login button.
+3.Enter invalid credentials in login input fields.
+4.Click on Login button.",,"A login page should get successfully open after clicking on the login.
+An error message should appear after entering invalid credentials."
+TC_06,Verify Register functionality,URL of website,"1.Open the website.
+2.Click on Register button on homepage.
+3.Enter required details to register.
+4.Click on Register button.",,"A registration page should get successfully open after clicking on the register.
+The user should be able to register successfully."
+,,,,,
+All the above testcases can be tested manually as well as through automation.,,,,,
